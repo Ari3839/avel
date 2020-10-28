@@ -25,10 +25,10 @@ public class Menu extends javax.swing.JFrame {
      * Creates new form proyecto
      */
     public Menu() {
-        initComponents();
+       initComponents();
         
-        ImageIcon imagen1 = new ImageIcon(getClass().getResource("/imagenes/escudo_fi_color.png"));
-        Icon fondo1 =new ImageIcon(imagen1.getImage().getScaledInstance(IE.getWidth(),IE.getHeight(),Image.SCALE_DEFAULT));
+       ImageIcon imagen1 = new ImageIcon(getClass().getResource("/imagenes/escudo_fi_color.png"));
+       Icon fondo1 =new ImageIcon(imagen1.getImage().getScaledInstance(IE.getWidth(),IE.getHeight(),Image.SCALE_DEFAULT));
        IE.setIcon(fondo1);
        this.repaint();
        
@@ -36,12 +36,15 @@ public class Menu extends javax.swing.JFrame {
        this.setLocationRelativeTo(Menu.this);
        this.setExtendedState(WIDTH);
        Image ico= Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("imagenes/escudo_fi_color.png"));
-        this.setIconImage(ico);
-        //this.setExtendedState(Menu.MAXIMIZED_BOTH);
-        setSize(1400,1200);
+       this.setIconImage(ico);
         
-        ImageIcon imagen2 = new ImageIcon(getClass().getResource("/imagenes/fondo1.jpg"));
-        Icon fondo2 =new ImageIcon(imagen2.getImage().getScaledInstance(fondo.getWidth(),fondo.getHeight(),Image.SCALE_DEFAULT));
+       this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+       this.setVisible(true);
+        
+       setSize(1400,1200);
+        
+       ImageIcon imagen2 = new ImageIcon(getClass().getResource("/imagenes/fondo1.jpg"));
+       Icon fondo2 =new ImageIcon(imagen2.getImage().getScaledInstance(fondo.getWidth(),fondo.getHeight(),Image.SCALE_DEFAULT));
        fondo.setIcon(fondo2);
        this.repaint();
        
