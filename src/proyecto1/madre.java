@@ -1,6 +1,6 @@
 package proyecto1;
 
-//Tratando de modificar el archivo
+//Tratando de modificar el archivo de una vez xd
 
 /**
  *
