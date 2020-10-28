@@ -37,8 +37,10 @@ public class Menu extends javax.swing.JFrame {
        this.setExtendedState(WIDTH);
        Image ico= Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("imagenes/escudo_fi_color.png"));
         this.setIconImage(ico);
-        //this.setExtendedState(Menu.MAXIMIZED_BOTH);
         setSize(1400,1200);
+        
+       this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+       this.setVisible(true);
         
         ImageIcon imagen2 = new ImageIcon(getClass().getResource("/imagenes/fondo1.jpg"));
         Icon fondo2 =new ImageIcon(imagen2.getImage().getScaledInstance(fondo.getWidth(),fondo.getHeight(),Image.SCALE_DEFAULT));
