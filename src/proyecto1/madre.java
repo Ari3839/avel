@@ -1,5 +1,7 @@
 package proyecto1;
 
+//Tratando de modificar el archivo
+
 /**
  *
  * @author eliss
@@ -7,8 +9,8 @@ package proyecto1;
 public class madre {
     
     public static void main(String[] args){
-        Menu menu = Menu();
+        /*Menu menu = Menu();
         menu.setVisible(true);
-        menu.setLocationRelativeTo(null);
+        menu.setLocationRelativeTo(null);*/
     }
 }
